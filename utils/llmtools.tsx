@@ -17,7 +17,7 @@ ${history}
 ### Question: ${question}
 `
 
-const GROBID_SERVER_URL = "https://server.talk2arxiv.org";
+const GROBID_SERVER_URL = "https://q.informaq.spinsphere.xyz";
 // const GROBID_SERVER_URL = "http://18.191.167.109:5328";
 
 const getBotReply = async (message: string, messages: Message[], paper_id: string, setLlmStatus: any, openAIKey: string) => {
